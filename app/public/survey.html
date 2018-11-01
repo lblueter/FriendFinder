@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="survey">Survey Questions</p>
+
+                <h3>About You</h3>
+                <label for="name">Name (required)</label>
+                <input id="name" type="text">
+                <label for="img">Link to Photo Image</label>
+                <input id="img" type="text">
+
+                <h3>Question 1</h3>
+                <select class="chosen-select" id="q1" style="display: none;">
+                    <option value></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q1_chosen"><a
+                        class="chosen-single chosen-default"><span>Select an Option</span>
+                        <div><b></b></div>
+                    </a>
+                    <div class="chosen-drop">
+                        <div class="chosen-search"><input type="text" autocomplete="off"></div>
+                        <ul class="chosen-results"></ul>
+                    </div>
+                </div>
+                <h3>Question 2</h3>
+                <select class="chosen-select" id="q2" style="display: none;">
+                    <option value></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q2_chosen"><a
+                        class="chosen-single chosen-default"><span>Select an Option</span>
+                        <div><b></b></div>
+                    </a>
+                    <div class="chosen-drop">
+                        <div class="chosen-search"><input type="text" autocomplete="off"></div>
+                        <ul class="chosen-results"></ul>
+                    </div>
+                </div>
+                <h3>Question 3</h3>
+                <select class="chosen-select" id="q3" style="display: none;">
+                    <option value></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q3_chosen"><a
+                        class="chosen-single chosen-default"><span>Select an Option</span>
+                        <div><b></b></div>
+                    </a>
+                    <div class="chosen-drop">
+                        <div class="chosen-search"><input type="text" autocomplete="off"></div>
+                        <ul class="chosen-results"></ul>
+                    </div>
+                </div>
+                <h3>Question 4</h3>
+                <select class="chosen-select" id="q4" style="display: none;">
+                    <option value></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q4_chosen"><a
+                        class="chosen-single chosen-default"><span>Select an Option</span>
+                        <div><b></b></div>
+                    </a>
+                    <div class="chosen-drop">
+                        <div class="chosen-search"><input type="text" autocomplete="off"></div>
+                        <ul class="chosen-results"></ul>
+                    </div>
+                </div>
+                <h3>Question 5</h3>
+                <select class="chosen-select" id="q5" style="display: none;">
+                    <option value></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q5_chosen"><a
+                        class="chosen-single chosen-default"><span>Select an Option</span>
+                        <div><b></b></div>
+                    </a>
+                    <div class="chosen-drop">
+                        <div class="chosen-search"><input type="text" autocomplete="off"></div>
+                        <ul class="chosen-results"></ul>
+                    </div>
+                </div>
+                <h3>Question 6</h3>
+                <select class="chosen-select" id="q6" style="display: none;">
+                    <option value></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q6_chosen"><a
+                        class="chosen-single chosen-default"><span>Select an Option</span>
+                        <div><b></b></div>
+                    </a>
+                    <div class="chosen-drop">
+                        <div class="chosen-search"><input type="text" autocomplete="off"></div>
+                        <ul class="chosen-results"></ul>
+                    </div>
+                </div>
+                <h3>Question 7</h3>
+                <select class="chosen-select" id="q7" style="display: none;">
+                    <option value></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q7_chosen"><a
+                        class="chosen-single chosen-default"><span>Select an Option</span>
+                        <div><b></b></div>
+                    </a>
+                    <div class="chosen-drop">
+                        <div class="chosen-search"><input type="text" autocomplete="off"></div>
+                        <ul class="chosen-results"></ul>
+                    </div>
+                </div>
+                <h3>Question 8</h3>
+                <select class="chosen-select" id="q8" style="display: none;">
+                    <option value></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q8_chosen"><a
+                        class="chosen-single chosen-default"><span>Select an Option</span>
+                        <div><b></b></div>
+                    </a>
+                    <div class="chosen-drop">
+                        <div class="chosen-search"><input type="text" autocomplete="off"></div>
+                        <ul class="chosen-results"></ul>
+                    </div>
+                </div>
+                <h3>Question 9</h3>
+                <select class="chosen-select" id="q9" style="display: none;">
+                    <option value></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q9_chosen"><a
+                        class="chosen-single chosen-default"><span>Select an Option</span>
+                        <div><b></b></div>
+                    </a>
+                    <div class="chosen-drop">
+                        <div class="chosen-search"><input type="text" autocomplete="off"></div>
+                        <ul class="chosen-results"></ul>
+                    </div>
+                </div>
+                <h3>Question 10</h3>
+                <select class="chosen-select" id="q10" style="display: none;">
+                    <option value></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="chosen-container chosen-container-single" style="width: 157px;" title="" id="q10_chosen"><a
+                        class="chosen-single chosen-default"><span>Select an Option</span>
+                        <div><b></b></div>
+                    </a>
+                    <div class="chosen-drop">
+                        <div class="chosen-search"><input type="text" autocomplete="off"></div>
+                        <ul class="chosen-results"></ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
