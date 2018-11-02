@@ -8,6 +8,8 @@ router.get('/api/friends', function (req, res) {
 
 router.post('/api/friends', function (req, res) {
   newPerson = req.body
+  // Handle incoming survey results
+  // Handle compatibility logic 
 
 })
 
