@@ -137,7 +137,7 @@
                 <hr>
                 <footer class="footer">
                     <div class="container">
-                        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub
+                        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/lblueter/FriendFinder">GitHub
                                 Repo</a></p>
                     </div>
                 </footer>
@@ -237,9 +237,10 @@
                     $("#match-img").attr("src", data.photo);
 
                     // Show the modal with the best match
-                    $("#results-modal").modal("toggle");
+                    
 
                 });
+                $("#results-modal").modal("toggle");
             } else {
                 alert("Please fill out all fields before submitting!");
             }
