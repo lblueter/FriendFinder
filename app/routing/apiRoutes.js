@@ -24,6 +24,8 @@ router.post('/api/friends', function (req, res) {
 
   // Handle incoming survey results
   // Handle compatibility logic 
+  
+  // res.json(friends[0])
 
 })
 
